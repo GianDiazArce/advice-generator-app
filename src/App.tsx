@@ -18,7 +18,7 @@ const App = () => {
         <main className="container">
             <div className="card">
                 <div className="card__id">Advice #{advice?.id}</div>
-                <p className="card__text">"{advice?.advice}"</p>
+                <h1 className="card__text">"{advice?.advice}"</h1>
                 <div className="divider">{/* <PatternDivider /> */}</div>
                 <div className="card__icon">
                     <IconDiceSVG color="var(--dark-blue)" />

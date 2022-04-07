@@ -47,14 +47,20 @@
 }
 
 .card__icon {
+  cursor: pointer;
   position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  bottom: -25px;
+  bottom: -30px;
   border-radius: 50%;
-  height: 50px;
-  width: 50px;
+  height: 60px;
+  width:  60px;
   background-color: var(--green);
+  transition: box-shadow 300ms;
+}
+
+.card__icon:hover {
+  box-shadow: 0px 0px 25px 3px var(--green);
 }
